@@ -1,25 +1,47 @@
 {
-	"name"		: "hero"
-,	"version"	: "0.1.11"
-,	"author"		: "Jonas Da Cruz <unlogic@gmail.com>"
-,	"contributors"	: [
-		"Luis Mesas <luismesas@gmail.com>",
-		"Alejandro Penedo <icedfiend@gmail.com>"
-	]
-,	"repository"	: {"type": "git", "url": "git://github.com/thegameofcode/hero.git"}
-,	"main"			: "index.js"
-,	"dependencies"	: {
-		"express"	: "3.x"
-	,	"mongodb"	: "1.2.x"
-	,	"redis"		: "0.8.2"
-	,	"xtend"		: "1.0.x"
-	,	"amqp"		: "https://github.com/postwait/node-amqp/tarball/master"
-	,	"qlog-node"	: "https://github.com/bbva-innotech/qlog-node/tarball/master"
-	,	"request"	: "x"
-	}
-,
-	"engines" : {
-		"node"	: "0.10.x"
-	,	"npm"	: "1.2.x"
-	}
+  "name": "hero",
+  "version": "0.1.11",
+  "author": {
+    "name": "Jonas Da Cruz",
+    "email": "unlogic@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Luis Mesas",
+      "email": "luismesas@gmail.com"
+    },
+    {
+      "name": "Alejandro Penedo",
+      "email": "icedfiend@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thegameofcode/hero.git"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "3.x",
+    "mongodb": "1.2.x",
+    "redis": "0.8.2",
+    "xtend": "1.0.x",
+    "amqp": "https://github.com/postwait/node-amqp/tarball/master",
+    "qlog-node": "https://github.com/bbva-innotech/qlog-node/tarball/master",
+    "request": "x",
+    "clone": "*",
+    "js-beautify": "*",
+    "iodocs": "https://github.com/surtich/iodocs/tarball/master"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "readme": "hero\n======\n\nSimple nodejs framework\n\nadd dependencie\n-------\nOn dependencies add\n\n<pre><code>\"hero\" : \"https://github.com/thegameofcode/hero/tarball/master\"</pre></code>\n",
+  "readmeFilename": "README.md",
+  "_id": "hero@0.1.11",
+  "description": "hero ======",
+  "dist": {
+    "shasum": "c2bcab4c0c0ba8707f658ff134467a2fb5d50de1"
+  },
+  "_from": "hero@https://github.com/surtich/hero/tarball/master"
 }
